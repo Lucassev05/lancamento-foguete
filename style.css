@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #e6e6e6;
+}
+
+body > img {
+  width: 300px;
+}
+
+.caixaMensagem {
+  margin: 2rem;
+}
+
+button {
+  padding: 1rem;
+  background-color: #7c22b5;
+  border: 0;
+  border-radius: 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #8643b0;
+}
+
+button:focus {
+  outline: none;
+}
